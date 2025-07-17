@@ -14,42 +14,61 @@ body {
   width: 100%;
   margin: auto;
 }
+
 @media (min-width: 1024px) {
   .container {
     flex-direction: row;
   }
 }
+
 .container form {
   flex: 1;
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
+
 .container form fieldset {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
 }
+
 .container form fieldset legend {
   font-weight: 700;
 }
+
 .container form fieldset label {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
+
 .container form fieldset label input {
   flex: 1;
   padding: 0.25rem;
 }
+
 .container form fieldset.form__btns {
   display: flex;
   flex-direction: row;
   gap: 0.5rem;
 }
+
 .container form fieldset.form__btns button {
   flex: 1;
   padding: 0.25rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
+thead {
+  background-color: #ccc;
+}
+
+#employeeList tr:nth-child(odd) {
+  background-color: #eee;
+}
+
+#employeeList tr:nth-child(even) {
+  background-color: grey;
+}
